@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css?family=Roberto:100,200,300,400,500,600,700,800,900");
+@import url("https://cdn.syncfusion.com/ej2/20.1.48/bootstrap5.css");
+
+:root {
+  background: #fff;
+  --color-primarypurple: #735d80;
+  --color-lightpurple: #a28aaf;
+  --color-darkpurple: #473353;
+  --color-primarypink: #ec407a;
+  --color-lightpink: #ff77a9;
+  --color-darkpink: #b4004e;
+  --color-grey: #767776;
+  --color-lightgrey: #a5a6a5;
+  --color-lightergrey: #f2f2f2;
+  --color-darkgrey: #4a4b4a;
+  --color-darkergrey: #202020;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-xmas: rgba(0, 135, 62, 1);
+  --color-xmasbg: rgba(32, 32, 32, 0.5);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  font-family: "Roberto", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.4px;
+}
+
+a {
+  color: var(--color-darkpink);
+  text-decoration: none !important;
+}
+
+nav a:link {
+  color: var(--color-white);
+  text-decoration: none !important;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+div hr {
+  border: 0.8px solid var(--color-darkpink) !important;
+  border-radius: 5px;
+}
+
+.lightSticky {
+  transition: 0.5s ease-out;
+  -webkit-box-shadow: 0 0 42px 0 rgba(0, 135, 62, 0.8);
+  box-shadow: 0 0 42px 0 rgba(0, 135, 62, 0.8);
+  /* -webkit-box-shadow: 0 0 42px 0 rgba(236, 64, 122, 0.8);
+  box-shadow: 0 0 42px 0 rgba(236, 64, 122, 0.8); */
+}

@@ -1,0 +1,64 @@
+h1 {
+  font-size: 52px;
+  line-height: 58px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+.accordion {
+  max-width: 1000px;
+  margin: 2rem auto;
+  text-align: left;
+  font-size: 18px;
+  line-height: 34px;
+  padding-top: 30px;
+}
+
+.accordion-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: left;
+  justify-content: space-between;
+  cursor: pointer;
+  background-color: var(--color-darkpink);
+}
+
+.accordion-title:hover {
+  background-color: var(--color-lightergrey);
+  color: var(--color-darkpink);
+}
+
+.accordion-title,
+.accordion-content {
+  padding: 1rem;
+}
+
+.accordion-content {
+  background-color: var(--color-lightergrey);
+  color: var(--color-darkgrey);
+  text-align: left;
+  font-size: 16px;
+  line-height: 34px;
+  padding: 20px 40px;
+}
+
+.link-content {
+  background-color: var(--color-lightergrey);
+  color: var(--color-darkgrey);
+  text-align: left;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 34px;
+  padding: 20px 40px;
+}
+
+.link-content:hover {
+  background-color: var(--color-darkergrey);
+  color: var(--color-lightergrey);
+}
+
+@media screen and (max-width: 700px) {
+  .accordion {
+    width: 90%;
+  }
+}
